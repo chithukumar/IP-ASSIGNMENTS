@@ -1,0 +1,79 @@
+/* Style for the game area */
+#game-area {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  /* Start Game Button */
+  #start-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  #start-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* End Game Button */
+  #end-game-btn {
+    background-color: #e74c3c;
+    color: white;
+    display: none; /* Initially hidden */
+  }
+  
+  #end-game-btn:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Score Display */
+  #score {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  /* Game Over Screen */
+  #game-over {
+    margin-top: 50px;
+  }
+  
+  #game-over h2 {
+    color: #e74c3c;
+  }
+  
+  /* Restart Button */
+  #restart-btn {
+    background-color: #3498db;
+    color: white;
+    display: none; /* Initially hidden */
+  }
+  
+  #restart-btn:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Target styles */
+  .target {
+    width: 50px;
+    height: 50px;
+    background-color: #2ecc71;
+    border-radius: 50%;
+    position: absolute;
+    cursor: pointer;
+  }
+  
