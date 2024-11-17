@@ -1,0 +1,49 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* Carousel */
+.carousel-caption h5 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Blog Cards */
+.card {
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Sidebar */
+.sidebar h5 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: #222;
+    color: #aaa;
+}
+/* Adjusting the image size in the carousel */
+.carousel-inner img {
+    max-width: 100%; /* Ensure the image fits within the container width */
+    height: 300px;   /* Set a specific height for consistency */
+    object-fit: cover; /* Maintain aspect ratio while filling the container */
+}
